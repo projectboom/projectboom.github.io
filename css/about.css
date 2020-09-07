@@ -1,0 +1,11 @@
+#team-container{
+    margin-top: 3em;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.member-description {
+    text-align: center;
+}
