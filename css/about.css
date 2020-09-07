@@ -1,0 +1,36 @@
+#team-container{
+    margin-top: 3em;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.member-description {
+    text-align: left;
+}
+
+.team-member{
+    display: flex;
+    align-items: top;
+    margin-bottom: 3em;
+}
+
+.profile-pic {
+    width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .team-member{
+        flex-direction: column;
+    }
+
+    .member-description{
+        text-align: center;
+    }
+
+    .member-description > h6 {
+        text-align: center;
+        margin-left: 0 !important;
+    }
+  }
